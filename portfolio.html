@@ -41,17 +41,24 @@
 
         <ul class="nav-contact">
           <li>
-            <a href="mailto:info@devstudio.com" class="contact-link"
-              >info@devstudio.com</a
-            >
+            <a href="mailto:info@devstudio.com" class="contact-link">
+              <svg class="header-icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="contact-link">+380961111111</a>
+            <a href="tel:+380961111111" class="contact-link">
+              <svg class="header-icon" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              +380961111111</a
+            >
           </li>
         </ul>
       </div>
     </header>
-
     <!-- Контент -->
     <main>
       <section class="section">
@@ -145,32 +152,89 @@
     <!-- Футер -->
 
     <footer class="order">
-      <div class="container">
-        <a id="logo-footer" href="./index.html" class="logo"
-          ><span class="logo-footer">Web</span>Studio</a
-        >
+      <div class="container box-footer">
+        <div>
+          <a id="logo-footer" href="./index.html" class="logo"
+            ><span class="logo-footer">Web</span>Studio</a
+          >
+          <address class="adress">
+            <ul class="information">
+              <li class="information">
+                <a
+                  href="https://goo.gl/maps/iiFqqTPr8g5T6caD6"
+                  class="mail"
+                  target="_blank"
+                  title="Google Maps"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="information">
+                <a href="mailto:info@devstudio.com" class="info"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="information">
+                <a href="tel:+380961111111" class="info">+380961111111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
 
-        <address class="adress">
-          <ul class="information">
-            <li class="information">
+        <!-- Social -->
+
+        <div class="box-icon-foot">
+          <h3 class="about-title social">Приєднуйтесь</h3>
+          <ul class="box-icon-iteam">
+            <li>
               <a
-                href="https://goo.gl/maps/iiFqqTPr8g5T6caD6"
-                class="mail"
+                class="link-icon icon-social"
+                href="https://www.instagram.com/"
                 target="_blank"
-                title="Google Maps"
-                >м. Київ, пр-т Лесі Українки, 26</a
+                rel="noopener nooreferrer nofollow "
               >
+                <svg class="icon-team" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="information">
-              <a href="mailto:info@devstudio.com" class="info"
-                >info@devstudio.com</a
+            <li>
+              <a
+                class="link-icon icon-social"
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener nooreferrer nofollow "
               >
+                <svg class="icon-team" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="information">
-              <a href="tel:+380961111111" class="info">+380961111111</a>
+            <li>
+              <a
+                class="link-icon icon-social"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener nooreferrer nofollow "
+              >
+                <svg class="icon-team" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link-icon icon-social"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener nooreferrer nofollow "
+              >
+                <svg class="icon-team" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
