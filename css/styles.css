@@ -250,7 +250,10 @@ text-transform: uppercase;
     align-items: center;
 }
 
-
+.list-icon{
+    width: 20px;
+    height: 20px;
+}
 
 
 .team:not(:last-child) {
@@ -438,6 +441,8 @@ color: rgba(255, 255, 255, 0.6);
 
 .icon-team{
     fill: currentColor;
+    width: 20px;
+    height: 20px;
 }
 
 .link-icon{
@@ -457,10 +462,7 @@ color:var(--primary-white-color);
 background:var(--actent-color);
 }
 
-.list-icon{
-     width: 20px;
-     height: 20px;
-}
+
 
 /* Reg-custom */
 
